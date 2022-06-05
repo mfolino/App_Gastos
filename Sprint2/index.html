@@ -8,9 +8,12 @@
 </head>
 <body>
     <h1>APP de GASTOS  :)</h1>
-    <input id="ing_nom" type="text" placeholder="Nombre">
-    <input id="ing_mont" type="number" placeholder="Monto">
+    <input id="ing_nom" type="text" placeholder="Nombre" required>
+    <input id="ing_mont" type="number" placeholder="Monto" required>
     <button onclick="tot()">Enviar</button>
+
+    <p id="mostrar_nom"></p>
+    <p id="mostrar_pag"></p>
 
     <script src="gastos.js"> </script>
 </body>
